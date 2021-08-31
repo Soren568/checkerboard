@@ -1,0 +1,23 @@
+.container{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.board{
+    border: 3px solid black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.block{
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
